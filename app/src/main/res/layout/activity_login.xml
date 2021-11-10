@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/signin_et_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textSize="34sp" />
+
+        <EditText
+            android:id="@+id/signin_et_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/signin_error"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/signin_btn_Signup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ĐĂNG KÝ"
+            android:textSize="34sp" />
+
+        <Button
+            android:id="@+id/signin_btn_Signin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ĐĂNG NHẬP"
+            android:textSize="34sp" />
+
+        <Button
+            android:id="@+id/signin_btn_ResetPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="QUÊN PASSWORD"
+            android:textSize="34sp" />
+
+        <Button
+            android:id="@+id/signin_btn_Cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HỦY"
+            android:textSize="34sp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android/sdk/platforms/android-31/data/res/layout/simple_list_item_1.xml" value="0.17760416666666667" />
+        <entry key="..\:/Android/sdk/platforms/android-31/data/res/layout/simple_list_item_2.xml" value="0.17760416666666667" />
+        <entry key="..\:/Download/RealtimeDatabaseFirebase/app/src/main/res/layout/activity_cap_nhat_contact.xml" value="0.29259259259259257" />
+        <entry key="..\:/Download/RealtimeDatabaseFirebase/app/src/main/res/layout/activity_forget_password.xml" value="0.17760416666666667" />
+        <entry key="..\:/Download/RealtimeDatabaseFirebase/app/src/main/res/layout/activity_login.xml" value="0.21388888888888888" />
+        <entry key="..\:/Download/RealtimeDatabaseFirebase/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Download/RealtimeDatabaseFirebase/app/src/main/res/layout/activity_reset_password.xml" value="0.25" />
+        <entry key="..\:/Download/RealtimeDatabaseFirebase/app/src/main/res/layout/activity_signup.xml" value="0.2518518518518518" />
+        <entry key="..\:/Download/RealtimeDatabaseFirebase/app/src/main/res/layout/activity_them_contact.xml" value="0.22" />
+        <entry key="..\:/Download/RealtimeDatabaseFirebase/app/src/main/res/layout/simplelistitem.xml" value="0.1361111111111111" />
+        <entry key="..\:/Download/RealtimeDatabaseFirebase/app/src/main/res/menu/main_menu.xml" value="0.22" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
