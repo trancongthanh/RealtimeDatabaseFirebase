@@ -58,7 +58,7 @@ public class RegisterActivity extends AppCompatActivity {
                                         if (!task.isSuccessful()) {
                                             error.setText(task.getException().getMessage());
                                         } else {
-                                            Toast.makeText(getApplicationContext(), "Đăng Ký Thành Công", Toast.LENGTH_LONG).show();
+                                            Toast.makeText(getApplicationContext(), "Đăng Nhập Thành Công", Toast.LENGTH_LONG).show();
                                             startActivity(new Intent(RegisterActivity.this, MainActivity.class));
                                             finish();
                                         }
@@ -71,6 +71,8 @@ public class RegisterActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // new activity signin
+                startActivity(new Intent(RegisterActivity.this, SigninActivity.class));
+                finish();
             }
         });
         forget.setOnClickListener(new View.OnClickListener() {
@@ -82,13 +84,13 @@ public class RegisterActivity extends AppCompatActivity {
     }
 
     private void matching() {
-        email = (EditText) findViewById(R.id.regiser_et_email);
-        password = (EditText) findViewById(R.id.register_et_Password);
-        signup = (Button) findViewById(R.id.register_btn_register);
-        signin = (Button) findViewById(R.id.register_btn_Singin);
-        forget = (Button) findViewById(R.id.register_btn_forgetpassword);
-        cancel = (Button) findViewById(R.id.register_btn_cancel);
-        error = (TextView) findViewById(R.id.register_tv_error);
+        email = findViewById(R.id.regiser_et_email);
+        password = findViewById(R.id.register_et_Password);
+        signup = findViewById(R.id.register_btn_register);
+        signin = findViewById(R.id.register_btn_Singin);
+        forget = findViewById(R.id.register_btn_forgetpassword);
+        cancel = findViewById(R.id.register_btn_cancel);
+        error = findViewById(R.id.register_tv_error);
         cancel.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

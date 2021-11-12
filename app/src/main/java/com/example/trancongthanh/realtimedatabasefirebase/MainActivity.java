@@ -94,7 +94,7 @@ public class MainActivity extends AppCompatActivity {
         } else if (item.getItemId() == R.id.mnuGioithieu)
             Toast.makeText(this, "Chào mừng bạn đến với môn \n Chuyên đề lập trình di động", Toast.LENGTH_LONG).show();
         else if (item.getItemId() == R.id.mnuSignin) {
-            Intent intent = new Intent(getApplicationContext(), SignupActivity.class);
+            Intent intent = new Intent(getApplicationContext(), SigninActivity.class);
             startActivity(intent);
 //            finish();
         } else if (item.getItemId() == R.id.mnuSignup) {

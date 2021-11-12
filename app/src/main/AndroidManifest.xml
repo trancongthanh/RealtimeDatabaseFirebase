@@ -10,20 +10,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RealtimeDatabaseFirebase">
         <activity
+            android:name=".SigninActivity"
+            android:exported="false" />
+        <activity
             android:name=".RegisterActivity"
             android:exported="false" />
         <activity
-            android:name=".ForgetPasswordActivity"
-            android:exported="false" />
-        <activity
-            android:name=".LoginActivity"
-            android:exported="true" />
-        <activity
             android:name=".ResetPasswordActivity"
             android:exported="false" />
-        <activity
-            android:name=".SignupActivity"
-            android:exported="true" />
         <activity
             android:name=".CapNhatContactActivity"
             android:exported="false" />
