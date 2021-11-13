@@ -79,6 +79,8 @@ public class RegisterActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // new forgetpass activity
+                startActivity(new Intent(RegisterActivity.this, ForgetPassActivity.class));
+                finish();
             }
         });
     }

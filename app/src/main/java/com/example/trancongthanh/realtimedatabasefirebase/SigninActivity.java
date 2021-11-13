@@ -71,6 +71,14 @@ public class SigninActivity extends AppCompatActivity {
                 });
             }
         });
+
+        resetpass.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(SigninActivity.this, ForgetPassActivity.class));
+                finish();
+            }
+        });
     }
 
     private void matching() {
